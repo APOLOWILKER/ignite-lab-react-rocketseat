@@ -2,7 +2,7 @@ import {DefaultUi, Player, Youtube} from '@vime/react';
 import { CaretRight, DiscordLogo, FileArrowDown, Lightning } from 'phosphor-react';
 
 import '@vime/core/themes/default.css'
-import { Lesson } from './Lesson';
+
 import { useGetLessonBySlugQuery } from '../graphql/generated';
 
 

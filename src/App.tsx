@@ -1,15 +1,15 @@
-import { ApolloProvider, gql, useQuery } from '@apollo/client'
+import { ApolloProvider} from '@apollo/client'
 import { client } from './lib/apollo'
 import { Router } from './Router'
 
-const GET_LESSONS_QUERY = gql`
-  query {
-    lessons {
-      id
-      title
-    }
-  }
-`
+// const GET_LESSONS_QUERY = gql`
+//   query {
+//     lessons {
+//       id
+//       title
+//     }
+//   }
+// `
 
 
 function App() {

@@ -2,6 +2,7 @@ import { useState, FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Logo } from '../components/Logo';
 import { useCreateSubscriberMutation } from "../graphql/generated";
+import BgImageMockup from 'src/assets/mockup.png'
 
 
 // react rockForm é uma biblioteca para formulários
@@ -70,7 +71,7 @@ export function Subscribe() {
         </div>
       </div>
 
-      <img src="/src/assets/code-mockup.png" className='mt-10' alt="" />
+      <img src={BgImageMockup} className='mt-10' alt="" />
     </div>
   )
 }
